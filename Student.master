@@ -1,0 +1,134 @@
+﻿<%@ Master Language="VB" CodeFile="student.master.vb" Inherits="student" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <link href="ddmenu/ddmenu.css" rel="stylesheet" type="text/css" />
+    <script src="ddmenu/ddmenu.js" type="text/javascript"></script>
+    <style>
+        
+        body { background: #ffffff url(ddmenu/ddmenu-bg.jpg) no-repeat center 0px;}
+        .style1
+        {
+            color: #FFFFFF;
+        }
+        .style5
+        {
+            width: 214px;
+            height: 74px;
+        }
+       .style10
+        {
+            color: #06722a;
+        }
+        .style11
+        {
+            color: #006600;
+        }
+    </style>
+    
+    
+    
+    
+    
+    
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="upper_bg" id="div_upper_bg">
+    <div>
+    <table style=" text-align:center; width:60%; margin-left:20%;">
+       <tr>
+       <td>
+        <img alt="" src="images/logo.png"/>
+        </td>
+        <td>
+            <h1 class="style1">
+                Computer Science Department</h1>
+                <h2 class="style1">Aligarh Muslim University</h2>
+            <h3 class="style1">ALIGARH
+            U.P-202002
+            INDIA</h3></td>
+        </tr>
+        </table>
+    </div>
+        <div class="nav_bar">
+                <nav id="ddmenu">
+    <div class="menu-icon"></div>
+    <ul>
+            <li class="no-sub"><a class="top-heading" href="BasicInfo.aspx">Home</a></li>
+            <li class="no-sub"><a class="top-heading" href="student2.aspx">View Marks</a></li>
+			<li class="no-sub"><a class="top-heading" href="student3.aspx">View Attendence</a></li>
+            <li class="no-sub"><a class="top-heading" href="student4.aspx">View Project Work</a></li>
+            <li>
+            <span class="top-heading">Contact Us</span>
+			<i class="caret"></i>           
+            <div class="dropdown right-aligned">
+                <div class="dd-inner">
+                    <div class="column">
+                        <a href="faq.aspx" >FAQ</a>
+                        <a href="feedback.aspx"> FEEDBACK</a>
+                     </div>
+                        
+                    <div class="column">
+                            <span class="style10">
+                        <strong>For any query mail us at</strong></span> 
+                                                   
+                        <a href="mailto:complaintus@amu.com" class="style10" >complaintus@amu.com</a></span> <span class="style10">
+                        
+                        <strong>Contact at
+                            <br />
+                        </strong>0571-2700920</span> </div>
+                    </div>
+                
+            </div>
+        </li>
+     
+     <li>
+            <span class="top-heading">Account</span>
+			<i class="caret"></i>           
+            <div class="dropdown right-aligned">
+                <div class="dd-inner">
+                    <div class="column">
+                        <span class="style11">
+                        <a href="StudentResetPassword.aspx" style="color: #006600" > &nbsp&nbsp<strong>Reset Password</strong></a></span></br>
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="38px" 
+                            ImageUrl="~/images/kik.jpg" Width="135px" />
+                     </div>
+                     <div class="column">
+                            <span class="style10"></span>
+                         <img src="images/account.png" style="height: 111px; width: 137px"/>
+                        </div>
+                   </div>
+            </div>
+        </li>
+      
+     </ul>     
+</nav>
+    <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+        </div>
+
+        </div>
+    </div>
+   <div class="footer">
+   <hr />
+        <tr align =right >
+        <td >
+        <p class ="style12">&nbsp;&copy; <span class="style10"><%:DateTime.Now.Year  %>&nbsp;- Aligarh Muslim University</span></p>        
+        </td>
+        </tr>
+        
+   </div>
+    </form>
+</body>
+</html>

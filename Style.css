@@ -1,0 +1,411 @@
+﻿body {
+			margin: 0;
+			padding: 0;
+}
+ 
+		 
+a{
+			color: #003300;
+			 
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+		
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 1000px;
+			width: 90%;
+							}		
+.camerawrap
+    {
+        height: 300px;
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 90%;
+    }
+.notice
+    {
+        z-index: 100;
+        left: 13%;
+       position: absolute;
+        top: 550px;
+        width: 23%;
+        height: 350px;
+        background-color:#078239;
+        border-radius:50px;
+    bottom: 1081px;
+}
+.noticemarquee
+   {
+       margin-bottom:10%;
+         width:87%;  
+         height: 80%;
+         margin-top:10%;
+         margin-left:8%;
+         margin-right:5%;  
+   }
+	.congratulations
+    {
+        z-index: 100;
+        left: 38%;
+        position: absolute;
+        top: 550px;
+        width: 23%;
+        height: 350px;
+        background-color: #078239;
+        border-radius:50px;
+        }	
+   .aboutus
+   {
+       z-index: 100;
+        left: 64%;
+        position: absolute;
+        top: 550px;
+        width: 23%;
+        height: 350px;
+        background-color:#078239;
+        border-radius:50px;
+      
+       }
+   .details
+   {
+        margin-left: 10%;
+        margin-right: 10%;
+         z-index: 100;
+        
+       position: absolute;
+        top: 910px;
+       
+        height: 315px;
+        background-color:#078239;
+        border-radius:50px;
+   
+        
+       }
+   .detailsection
+       {
+         background-color:#078239;
+         border-radius:30px;
+         width:100%; 
+         top: 850px;
+         height:200px;
+            }
+    .parentzone
+   {
+       background-color:White;
+       width:103%;
+       text-align:center;
+       border-radius: 50px;
+    height: 851px;
+    margin-top: 65px;
+}  
+       .parent
+   { 
+       background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+        
+   }   
+   .info
+		{
+	   background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius: 50px;
+    height: 824px;
+}
+   .signup
+   {
+       background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+   }
+       .fee2
+       {           
+       background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       
+       }       
+       .fee1
+       {
+       background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       }
+       .examlist1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       }
+       .examlist2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       
+       }   
+       .admin1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       
+       }
+       .admin2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       height: 851px;
+       min-height:100%;
+       }   
+        .notice1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       }
+       .notice2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       
+       } 
+         .holiday1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       
+       }
+       .holiday2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }   
+         .faq1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       
+       }
+        .faq2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       } 
+        .time1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       
+       }
+        .time2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }
+       .welcome1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .welcome2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }
+       .addmark1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .addmark2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }  
+       .attendance1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .attendance2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }
+       .addassignment1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .addassignment2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }     
+       .login1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .login2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+    
+}  
+        .feedback1
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .feedback2
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       } 
+        .parentzone21
+       {
+        background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+       min-height:100%;
+       
+       }
+        .parentzone22
+       {
+         background-color:White;
+       width:100%;
+       text-align:center;
+       border-radius:50px;
+       min-height:100%;
+       }  
+/*fo background: #ffffff url(ddmenu/ddmenu-bg.jpg) repeat center 0px;
+       width:90%;
+       text-align:center;
+       padding:5% 5% 5% 5%;
+        oter*/
+html
+{
+  position: relative;
+  min-height: 200%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ffffff;
+}
+.footer_right 
+        {
+         
+         }        
+        .footer_right a 
+        {
+	        text-decoration:none;
+	        padding:0 10px 0 10px;
+	        color:#545554;
+        }
+       
+        .footer_image>a
+        {
+	        float:left;
+	        margin-top:25px;
+	        -webkit-transition:all 0.3s ease-in-out;
+	        -moz-transition:all 0.3s ease-in-out;
+	        -o-transition:all 0.3s ease-in-out;
+	        -transition:all 0.3s ease-in-out;
+        }
+        .footer_image>a:hover
+        {
+	        margin-top:10px;
+        }	
+
+
+

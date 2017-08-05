@@ -1,0 +1,12 @@
+c:\users\mukul var\documents\visual studio 2010\Projects\Online_School\Online_School\bin\Online_School.dll
+c:\users\mukul var\documents\visual studio 2010\Projects\Online_School\Online_School\bin\Online_School.pdb
+c:\users\mukul var\documents\visual studio 2010\Projects\Online_School\Online_School\obj\Debug\Online_School.dll
+c:\users\mukul var\documents\visual studio 2010\Projects\Online_School\Online_School\obj\Debug\Online_School.pdb
+F:\Project\Online_School\Online_School\bin\Online_School.dll
+F:\Project\Online_School\Online_School\bin\Online_School.pdb
+F:\Project\Online_School\Online_School\obj\Debug\Online_School.dll
+F:\Project\Online_School\Online_School\obj\Debug\Online_School.pdb
+C:\Users\Mukul var\Desktop\Online_School\Online_School\bin\Online_School.dll
+C:\Users\Mukul var\Desktop\Online_School\Online_School\bin\Online_School.pdb
+C:\Users\Mukul var\Desktop\Online_School\Online_School\obj\Debug\Online_School.dll
+C:\Users\Mukul var\Desktop\Online_School\Online_School\obj\Debug\Online_School.pdb
